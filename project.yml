@@ -1,4 +1,3 @@
----
 settings:
   name: Active IQ Unified Manager 9.13
   internal:
@@ -6,20 +5,8 @@ settings:
   prod:
     pdf_enabled: true
     harmony_enabled: true
-  versions:
-    # Current repo stanza comes first
-    - version-number: "9.13"
-      url: /active-iq-unified-manager
-    # Additional releases newest to oldest
-    # Release in GitHub (typical)
-    - version-number: "9.12"
-      url: /active-iq-unified-manager-912  
-    - version-number: "9.11"
-      url: /active-iq-unified-manager-911
-    - version-number: "9.10"
-      url: /active-iq-unified-manager-910
-      
-sidebar:
+
+sidebar: 
   entries:
     - title: Active IQ Unified Manager 9.13 docs
       url: "/index.html"
