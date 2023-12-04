@@ -1,0 +1,39 @@
+---
+permalink: storage-mgmt/task_edit_clusters.html
+sidebar: sidebar
+keywords: edit, clusters
+summary: "You can modify the settings of an existing cluster, such as the host name or IP address, user name, password, and port, by using the Edit Cluster dialog box."
+---
+= Editing clusters
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can modify the settings of an existing cluster, such as the host name or IP address, user name, password, and port, by using the Edit Cluster dialog box.
+
+*What you'll need*
+
+You must have the Application Administrator role or the Storage Administrator role.
+
+[NOTE]
+====
+Starting with Unified Manager 9.7, clusters can be added using HTTPS only.
+====
+.Steps
+
+. In the left navigation pane, click *Storage Management* > *Cluster Setup*.
+. On the *Cluster Setup* page, select the cluster you want to edit, and then click *Edit*.
+. In the *Edit Cluster* dialog box, modify the values as required.
+   +
+  If you have modified the details for a cluster added to Unified Manager, you can view the certificate details for Mutual TLS communication, based on the ONTAP version. For more information about ONTAP version, see link:../storage-mgmt/task_add_clusters.html[Certificates for Mutual TLS communication].
+   +
+  You can view the certificate details by clicking *Certificate Details*. If the certificate is expired, click the *Regenerate* button to incorporate the new certificate.
+. Click *Submit*.
+. In the Authorize Host dialog box, click *View Certificate* to view the certificate information about the cluster.
+. Click *Yes*.
+
+*Related information*
+
+link:../config/task_add_users.html[Adding users]
+
+link:../health-checker/task_view_cluster_list_and_details.html[Viewing the cluster list and details]
