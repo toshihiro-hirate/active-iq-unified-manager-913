@@ -1,3 +1,4 @@
+---
 settings:
   name: Active IQ Unified Manager 9.13
   internal:
@@ -8,9 +9,11 @@ settings:
   versions:
     # Current repo stanza comes first
     - version-number: "9.13"
-      url: /active-iq-unified-manager
+      url: /active-iq-unified-manager-913
     # Additional releases newest to oldest
     # Release in GitHub (typical)
+    - version-number: "9.14"
+      url: /active-iq-unified-manager
     - version-number: "9.12"
       url: /active-iq-unified-manager-912  
     - version-number: "9.11"
