@@ -1,0 +1,35 @@
+---
+permalink: health-checker/task_view_svm_list_and_details.html
+sidebar: sidebar
+keywords: view, storage vm list, details
+summary: "From the Health: All Storage VMs view, you can monitor your inventory of storage virtual machines (SVMs). You can use the Storage VM / Health details page to view detailed information about SVMs that are monitored."
+---
+= Viewing the Storage VM list and details
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+From the Health: All Storage VMs view, you can monitor your inventory of storage virtual machines (SVMs). You can use the Storage VM / Health details page to view detailed information about SVMs that are monitored.
+
+*What you'll need*
+
+You must have the Operator, Application Administrator, or Storage Administrator role.
+
+You can view SVM details, such as the capacity, efficiency, and configuration of an SVM. You can also view information about the related devices and related alerts for that SVM.
+
+.Steps
+. In the left navigation pane, click *Storage* > *Storage VMs*.
+. Choose one of the following ways to view the SVM details:
+ ** To view information about the health of all SVMs in all clusters, in the View menu, select Health: All Storage VMs view.
+ ** To view the complete details, click the Storage VM name.
++
+You can also view the complete details by clicking *View Details* in the minimal details dialog box.
+. View the objects related to the SVM by clicking *View Related* in the minimal details dialog box.
+
+*Related information*
+
+* link:../health-checker/reference_health_svm_details_page.html[Storage VM: Health details page]
+* link:../performance-checker/performance-view-all.html#performance-all-storage-vms-view[Performance: All Storage VMs view]
+* link:../health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html#view-security-details-of-all-volumes-with-anti-ransomware-detection[Security: Anti-ransomware view]
+* link:../health-checker/task_view_detailed_security_status_for_clusters_and_svms.html[Viewing security status for clusters and Storage VMs]
+* link:../data-protection/reference_relationship_all_relationships_view.html[Relationship: All Relationships view]
